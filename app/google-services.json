@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "432151787656",
+    "firebase_url": "https://uochat2.firebaseio.com",
+    "project_id": "uochat2",
+    "storage_bucket": "uochat2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432151787656:android:454556623ec3eae9",
+        "android_client_info": {
+          "package_name": "com.umutonur.uochat2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432151787656-ccgqhu3vpc4ilid1raqd6oaosejq2viq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.umutonur.uochat2",
+            "certificate_hash": "A65119CD2F2523DD14CD33D161E91DB10DC2F5A9"
+          }
+        },
+        {
+          "client_id": "432151787656-nai1u8mqdgapgd15qpdng93qnhsljur4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArKtxUmfbf3bIVh955asjjhPJZ_noCcfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432151787656-nai1u8mqdgapgd15qpdng93qnhsljur4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

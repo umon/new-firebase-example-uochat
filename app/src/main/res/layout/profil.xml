@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="311dp"
+        app:layout_constraintLeft_toLeftOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        app:layout_constraintRight_toRightOf="@+id/constraintLayout"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ad"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/soyad"
+            android:layout_alignStart="@+id/soyad"
+            android:hint="Bilgiler Alınıyor.."
+            android:editable="false"
+            android:enabled="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/soyad"
+            android:layout_below="@+id/ad"
+            android:layout_alignLeft="@+id/rumuz"
+            android:layout_alignStart="@+id/rumuz"
+            android:hint="Bilgiler Alınıyor.."
+            android:enabled="false" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/rumuz"
+            android:layout_below="@+id/soyad"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:hint="Bilgiler Alınıyor.." />
+
+        <Button
+            android:text="ÇIKIŞ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:layout_below="@+id/sohbeteGir"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="SOHBETE GİR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sohbeteGir"
+            android:layout_below="@+id/rumuz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
