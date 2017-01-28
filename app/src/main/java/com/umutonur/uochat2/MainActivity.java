@@ -62,11 +62,11 @@ public class MainActivity extends AppCompatActivity {
         });
         final Button kayit = (Button) findViewById(R.id.kayit);
         kayit.setOnClickListener(new View.OnClickListener() {
-            String emailAddr = email.getText().toString();
-            String pass = password.getText().toString();
 
             @Override
             public void onClick(View v) {
+                            String emailAddr = email.getText().toString();
+            String pass = password.getText().toString();
                 firebaseAuth.createUserWithEmailAndPassword(emailAddr, pass)
                         .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
