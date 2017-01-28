@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                            String emailAddr = email.getText().toString();
-            String pass = password.getText().toString();
+                String emailAddr = email.getText().toString();
+                String pass = password.getText().toString();
                 firebaseAuth.createUserWithEmailAndPassword(emailAddr, pass)
                         .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
